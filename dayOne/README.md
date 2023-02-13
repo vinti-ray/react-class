@@ -132,7 +132,7 @@ As now we have set up our system, let’s build a very basic react application t
 Code - 
 
 In HTML File - 
-  <div id="root"> <!-- This element's contents will be replaced with your component. --> </div> 
-  
+     <div id="root"> <!-- This element's contents will be replaced with your component. --> </div> 
+
 In JSX - 
-    const root = ReactDOM.createRoot(document.getElementById('root')); root.render(<h1>Hello, world!</h1>);
+      const root = ReactDOM.createRoot(document.getElementById('root')); root.render(<h1>Hello, world!</h1>);
