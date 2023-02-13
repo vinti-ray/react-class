@@ -5,9 +5,6 @@ import './index.css';
 // rafce
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const HeadingComponent=(props)=>{
-  return <h1>{props.title}</h1>
-}
 
 class HeadingComponentUsingClass extends React.Component{
   render(){
