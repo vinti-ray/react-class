@@ -1,31 +1,46 @@
 # react-class
 ReactJS Preparation - Day 1 
 
-Partha Roy 
-What is ReactJS? 
+
+    What is ReactJS? 
 ReactJS is a declarative, efficient, and flexible JavaScript library for building reusable UI components. It is an open-source, component-based front-end library which is responsible only for the view layer of the application. It was 
 initially developed and maintained by Facebook and later used in its products like WhatsApp & Instagram. 
-Resource - What Is React (React js) & Why Is It So Popular? 
+
+
+    Resource - What Is React (React js) & Why Is It So Popular? 
 Features of ReactJS 
 The developer community loves Reactjs for its robust features. Some of the Reactjs features that distinguish it from the rest are: 
-● Virtual DOM is one of the chief characteristics that facilitate fast and flexible application development using Reactjs. Its memory reconciliation algorithm enables React to replicate a web page in its virtual memory. In this way, a virtual DOM is the representation of an original DOM. 
+
+## ● Virtual DOM is one of the chief characteristics that facilitate fast and flexible application development using Reactjs. Its memory reconciliation algorithm enables React to replicate a web page in its virtual memory. In this way, a virtual DOM is the representation of an original DOM. 
 With every modification in the web application, the virtual DOM re-renders the entire user interface. In a virtual DOM representation, only the components that have actually changed are updated and not all the component 
-● JSX syntax - JSX stands for JavaScript XML. It is a markup syntax that is very similar to HTML and is used to describe the appearance of an application’s UI. JSX is one of the best features that Reactjs has to offer. 
+
+## ● JSX syntax - JSX stands for JavaScript XML. It is a markup syntax that is very similar to HTML and is used to describe the appearance of an application’s UI. JSX is one of the best features that Reactjs has to offer. 
+
 It makes the syntax, used by developers to create React components, almost identical to the HTML they will inject in the web page. This makes
 writing the building blocks of Reactjs effortless and simple for the developers and gives them an easy way out. 
-● One way data binding - One of the major reasons why you should choose Reactjs for your next project is its one-way data flow. Reactjs uses a unidirectional data flow. Meaning, the developers cannot edit any component directly. They have to utilize the callback function in order to make changes in the components. This process is called one-way data binding. 
+
+## ● One way data binding - One of the major reasons why you should choose Reactjs for your next project is its one-way data flow. Reactjs uses a unidirectional data flow. Meaning, the developers cannot edit any component directly. They have to utilize the callback function in order to make changes in the components. This process is called one-way data binding. 
 Reactjs uses Flux, a JavaScript app architecture, to control the data flow from a single point. A unidirectional data flow helps Reactjs developers to gain better control over the web or mobile application. This enhances the flexibility of the application and makes it more efficient. 
-● Declarative UI - As mentioned earlier, Reactjs is the best for creating engaging and interactive user interfaces for mobile and web applications. In an event of data modification, Reactjs adequately renders and updates just the right components. 
+
+## ● Declarative UI - As mentioned earlier, Reactjs is the best for creating engaging and interactive user interfaces for mobile and web applications. In an event of data modification, Reactjs adequately renders and updates just the right components. 
+
 It generates a simple view for each state of the application. This feature makes the code more readable and simpler to debug. 
-● Component-based architecture - The architecture of Reactjs is component-based. In other words, the UI of a React-based mobile or web application is divided into multiple components. Each component has its own specific logic. The logic is written in JavaScript instead of using templates. This enables Reactjs developers to pass the data throughout the application without affecting the DOM. 
-Benefits & Drawbacks of ReactJS 
-Benefits 
-Virtual DOM - Virtual DOM (Document Object Model) is responsible for React’s performance and speed. Thanks to it, developers can create fast applications that are up to modern standards. What’s DOM, though? It’s a tree structure of XML, HTML, or XHTML documents, in other words – a virtual representation of
+
+## ● Component-based architecture - The architecture of Reactjs is component-based. In other words, the UI of a React-based mobile or web application is divided into multiple components. Each component has its own specific logic. The logic is written in JavaScript instead of using templates. This enables Reactjs developers to pass the data throughout the application without affecting the DOM. 
+
+## Benefits & Drawbacks of ReactJS 
+## Benefits 
+ Virtual DOM - Virtual DOM (Document Object Model) is responsible for React’s performance and speed. Thanks to it, developers can create fast applications that are up to modern standards. What’s DOM, though? It’s a tree structure of XML, HTML, or XHTML documents, in other words – a virtual representation of
 the document object model. However, DOM didn’t seem to be enough for React JS. 
-There had to be something else to it to make it faster, better, and more versatile. React’s developers came up with the idea to use the virtual version of the DOM and that was a bingo! Virtual DOM allows devs to update even the smallest components of the app without influencing its entirety. 
-Virtual DOM is nothing else than a virtual copy of the real DOM. Additionally, it requires less time to update than a regular DOM which is a huge advantage. 
-Reusable Components - Reusable components are one of the factors that influence React’s popularity. They make the development process much easier as the developers don’t have to write the code from scratch for similar things and can reuse components in their future projects. 
-In fact, we can safely assume that they’re one of the most important features of React when it comes to web app development. They not only make the coding life easier, but they also speed up the entire development process making React one of the best technologies available. 
+
+ There had to be something else to it to make it faster, better, and more versatile. React’s developers came up with the idea to use the virtual version of the DOM and that was a bingo! Virtual DOM allows devs to update even the smallest components of the app without influencing its entirety. 
+
+ Virtual DOM is nothing else than a virtual copy of the real DOM. Additionally, it requires less time to update than a regular DOM which is a huge advantage. 
+  
+ Reusable Components - Reusable components are one of the factors that influence React’s popularity. They make the development process much easier as the developers don’t have to write the code from scratch for similar things and can reuse components in their future projects. 
+
+ In fact, we can safely assume that they’re one of the most important features of React when it comes to web app development. They not only make the coding life easier, but they also speed up the entire development process making React one of the best technologies available. 
+ 
 Community - The library definitely has strong community support and that can be attributed to the fact that React is open-source. Whether you face a problem, a bug, or anything else, we’re sure that the community will always be there to provide you with any help they can. 
 Not only that, there’s a ton of YouTube videos, tutorials, how-to’s, articles, React-centric web development blogs, and other publications that are available to everyone for free! 
 Seo-Friendliness - This JavaScript library is actually one of the best tools for creating SEO-based web apps! Long loading time may also be the cause of problems with the website itself.
