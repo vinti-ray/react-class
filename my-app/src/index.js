@@ -14,7 +14,7 @@ class HeadingComponentUsingClass extends React.Component{
 
 class SearchButton extends React.Component{
   render(){
-    return <button class="button"/>
+    return <input class="button"/> 
   }
 }
 
@@ -32,8 +32,8 @@ return (
 }
  const Language =()=>{
   return <h class = "google" >
-   <p>Google offered in : हिन्दी বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ</p>
-  </h> 
+  <p>Google offered in : <a href='#'>বাংলা </a>  <a href='#'> తెలుగు </a>  <a href='#'></a>  <a href='#'> தமிழ் </a> <a href='#'> ગુજરાતી </a><a href='#'> ಕನ್ನಡ </a><a href='#'> മലയാളം </a><a href='#'> ਪੰਜਾਬੀ </a></p>
+  </h>
  }
 
 
